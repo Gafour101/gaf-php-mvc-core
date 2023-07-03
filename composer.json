@@ -1,0 +1,15 @@
+{
+    "name": "gaf/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Gaf\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gafourrrr",
+            "email": "panolong.gafour@s.msumain.edu.ph"
+        }
+    ],
+    "require": {}
+}
