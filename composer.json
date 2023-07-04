@@ -9,8 +9,5 @@
         "name": "Gafourrrr",
         "email": "panolong.gafour@s.msumain.edu.ph"
     }],
-    "require": {
-        "vlucas/phpdotenv": "^5.0",
-        "gaf/php-mvc-core": "^v.1.0.1"
-    }
+    "require": {}
 }
