@@ -1,15 +1,15 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\form;
+namespace gaf\phpmvc\form;
 
-use app\core\Model;
+use gaf\phpmvc\Model;
 /**
 
     * Class Field
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\form
+    * @package gaf\phpmvc\form
     
 **/
 
@@ -26,11 +26,11 @@ class InputField extends BaseField
     /**
      * Field constructor
      * 
-     * @param \app\core\Model $model
+     * @param \gaf\phpmvc\Model $model
      * @param string          $attribute
      */
 
-    public function __construct(\app\core\Model $model, string $attribute)
+    public function __construct(\gaf\phpmvc\Model $model, string $attribute)
     {   
         $this->type = self::TYPE_TEXT;
         parent::__construct($model, $attribute);

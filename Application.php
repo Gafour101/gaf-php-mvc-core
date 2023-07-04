@@ -1,18 +1,18 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core;
+namespace gaf\phpmvc;
 
 use app\controllers\SiteController;
-use app\core\exception\NotFoundException;
-use app\core\db\Database;
-use app\core\db\UserModel;
+use gaf\phpmvc\exception\NotFoundException;
+use gaf\phpmvc\db\Database;
+use gaf\phpmvc\db\UserModel;
 /**
 
     * Class Application
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core
+    * @package gaf\phpmvc
     
 **/
 
@@ -77,7 +77,7 @@ class Application
     }
 
     /**
-     * @return \app\core\Controller
+     * @return \gaf\phpmvc\Controller
      */
 
      public function getController()
@@ -86,10 +86,10 @@ class Application
      }
 
      /**
-     * @param \app\core\Controller $controller
+     * @param \gaf\phpmvc\Controller $controller
      */
 
-     public function setController(\app\core\Controller $controller): void
+     public function setController(\gaf\phpmvc\Controller $controller): void
      {
         $this->controller = $controller;
      }

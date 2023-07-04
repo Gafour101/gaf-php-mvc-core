@@ -1,14 +1,14 @@
 <?php
 /** User: Gafour Tech ...**/
 
-namespace app\core;
-use app\core\exception\NotFoundException;
+namespace gaf\phpmvc;
+use gaf\phpmvc\exception\NotFoundException;
 /**
 
     * Class Application
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core
+    * @package gaf\phpmvc
     
 **/
 
@@ -22,8 +22,8 @@ class Router
     /**
      *  Router constructor
      * 
-     *  @param \app\core\Request $request
-     *  @param \app\core\Response $response
+     *  @param \gaf\phpmvc\Request $request
+     *  @param \gaf\phpmvc\Response $response
      */
    public function __construct(Request $request, Response $response)
    {
@@ -63,7 +63,7 @@ class Router
 
         if (is_array($callback)) 
         {
-          /** @var \app\core\Controller $controller */
+          /** @var \gaf\phpmvc\Controller $controller */
           $controller = new $callback[0]();
           Application::$app->controller = $controller;
           $controller->action = $callback[1];

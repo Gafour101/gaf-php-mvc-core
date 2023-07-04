@@ -1,14 +1,14 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\middlewares;
+namespace gaf\phpmvc\middlewares;
 
 /**
 
     * Class BaseMiddleware
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\middlewares
+    * @package gaf\phpmvc\middlewares
     
 **/
 

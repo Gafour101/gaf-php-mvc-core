@@ -1,14 +1,14 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\exception;
+namespace gaf\phpmvc\exception;
 use Exception;
 /**
 
     * Class NotFoundException
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\exception
+    * @package gaf\phpmvc\exception
     
 **/
 

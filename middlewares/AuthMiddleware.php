@@ -1,16 +1,16 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\middlewares;
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+namespace gaf\phpmvc\middlewares;
+use gaf\phpmvc\Application;
+use gaf\phpmvc\exception\ForbiddenException;
 
 /**
 
     * Class BaseMiddleware
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\middlewares
+    * @package gaf\phpmvc\middlewares
     
 **/
 

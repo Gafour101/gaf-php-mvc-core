@@ -1,15 +1,15 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\form;
+namespace gaf\phpmvc\form;
 
-use app\core\Model;
+use gaf\phpmvc\Model;
 /**
 
     * Class Field
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\form
+    * @package gaf\phpmvc\form
     
 **/
 

@@ -1,16 +1,16 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core;
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
+namespace gaf\phpmvc;
+use gaf\phpmvc\Application;
+use gaf\phpmvc\middlewares\BaseMiddleware;
 
 /**
 
     * Class Application
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core
+    * @package gaf\phpmvc
     
 **/
 
@@ -19,7 +19,7 @@ class Controller
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \gaf\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = []; 
 
@@ -38,7 +38,7 @@ class Controller
     }
 
     /**
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \gaf\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

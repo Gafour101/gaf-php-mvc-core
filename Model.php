@@ -1,7 +1,7 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core;
+namespace gaf\phpmvc;
 
 
 /**
@@ -9,7 +9,7 @@ namespace app\core;
     * Class Application
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core
+    * @package gaf\phpmvc
     
 **/
 

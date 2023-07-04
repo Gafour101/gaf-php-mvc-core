@@ -1,10 +1,10 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\db;
+namespace gaf\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use gaf\phpmvc\Application;
+use gaf\phpmvc\Model;
 
 class Database
 {

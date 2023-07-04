@@ -2,14 +2,12 @@
     "name": "gaf/php-mvc-core",
     "autoload": {
         "psr-4": {
-            "Gaf\\PhpMvcCore\\": "src/"
+            "gaf\\phpmvc\\": "."
         }
     },
-    "authors": [
-        {
-            "name": "Gafourrrr",
-            "email": "panolong.gafour@s.msumain.edu.ph"
-        }
-    ],
+    "authors": [{
+        "name": "Gafourrrr",
+        "email": "panolong.gafour@s.msumain.edu.ph"
+    }],
     "require": {}
 }

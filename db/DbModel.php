@@ -1,10 +1,10 @@
 <?php
 /** User: Gafour Tech **/
 
-namespace app\core\db;
+namespace gaf\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use gaf\phpmvc\Application;
+use gaf\phpmvc\Model;
 
 
 /**
@@ -12,7 +12,7 @@ use app\core\Model;
     * Class Application
     *
     * @author Gafour Panolong <gafopanolong.gafour@s.msumain.edu.ph>
-    * @package app\core\db
+    * @package gaf\phpmvc\db
     
 **/
 
